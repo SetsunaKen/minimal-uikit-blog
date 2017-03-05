@@ -3,15 +3,20 @@
 
 
 main {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0 50px;
+
 }
 
-footer {
+.social {
   background: #f7f7f7;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: #f3f3f3;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 
@@ -23,4 +28,8 @@ footer {
 
 .uk-navbar-toggle {
     height: 64px;
+}
+
+.red {
+  color: red;
 }
