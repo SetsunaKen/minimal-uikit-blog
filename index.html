@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="#">
+<head>
+  <meta charset="utf-8" />
+  <title>Minimal Blog Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit.min.css" />
+  <link rel="stylesheet" href="main.css" />
+  <meta name="author" content="#" />
+  <meta name="description" content="#" />
+  <!-- Webapp Settings -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#fff" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#fff" />
+  <!-- End -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit-icons.min.js"></script>
+</head>
+<body>
+  <!-- Navbar + Off Canvas Menu -->
+  <nav class="uk-navbar-container" uk-navbar uk-sticky>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+        <a class="uk-navbar-item uk-logo" href="#">Minimal Blog</a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-visible@s">
+            <li class="uk-active"><a href="#">Home</a></li>
+            <li><a href="#">Parent</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-default">
+            <li class="uk-nav-header"><span class="uk-margin-small-right" uk-icon="icon: list"></span>Navigation</li>
+            <li class="uk-nav-divider"></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: home"></span> Home</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: folder"></span> Archiv</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: mail"></span> Contact</a></li>
+            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: rss"></span> RSS</a></li>
+        </ul>
+    </div>
+</div>
+
+<main class="uk-animation-fade">
+    <div class="uk-container uk-container-small">
+        <article class="uk-article">
+            <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>
+            <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+            <p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                <div>
+                    <a class="uk-button uk-button-danger" href="#">Read more</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-secondary" href="#">5 Comments</a>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>
+
+            <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+
+            <p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                <div>
+                    <a class="uk-button uk-button-danger" href="#">Read more</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-secondary" href="#">5 Comments</a>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="uk-article">
+
+            <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>
+
+            <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+
+            <p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                <div>
+                    <a class="uk-button uk-button-danger" href="#">Read more</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-secondary" href="#">5 Comments</a>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+</main>
+
+<footer class="uk-text-center uk-text-small">
+  &copy; 2017 - Dario C. -> Made with &hearts; in Stuttgart
+  <br />Powered by <a href="#">UIkit</a> &amp; <a href="#">Jigsaw</a>
+</footer>
+</body>
+</html>
